@@ -8,6 +8,7 @@
             height: torem(66);
             background: $light-grey;
             border-radius: 50%;
+            @include justify-align-center;
         }
     }
 
@@ -19,6 +20,9 @@
         &__item {
             padding: $spacing-lg $spacing-xlg;
             text-align: center;
+            @include flexbox;
+            @include flex-direction(column);
+            @include align-items(center);
 
             label {
                 font-size: $small;
