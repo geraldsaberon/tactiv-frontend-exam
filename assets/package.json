@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass:build": "sass sass/style.scss css/style.css"
+    "sass:build": "sass sass/style.scss css/style.css",
+    "sass:watch": "sass --watch sass/style.scss css/style.css"
   },
   "author": "Restie Antiquin",
   "license": "ISC",
