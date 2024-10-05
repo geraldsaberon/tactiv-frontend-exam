@@ -1,5 +1,7 @@
 .booking {
     font-family: $pop-rgl;
+    position: relative;
+    z-index: 2;
 
     &--form {
         width: 100%;
