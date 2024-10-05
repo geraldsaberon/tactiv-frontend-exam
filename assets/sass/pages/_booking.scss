@@ -94,5 +94,9 @@
         .flight-info:not(:first-child) .remove-flight {
             display: initial;
         }
+
+        #another-flight-container {
+            font-family: $pop-smb;
+        }
     }
 }
