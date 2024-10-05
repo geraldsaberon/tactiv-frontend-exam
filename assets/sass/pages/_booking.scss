@@ -52,6 +52,10 @@
         background-color: #F7F7F729;
         color: $white;
 
+        label {
+            color: $grey;
+        }
+
         & input.form-control {
             color: $black;
             border-right: none;
