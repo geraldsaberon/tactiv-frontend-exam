@@ -60,5 +60,19 @@
             color: $primary-color;
         }
 
+        &__select {
+            background: $white;
+        }
+
+        & .dropdown-item.active, .dropdown-item:active {
+            background: $primary-color;
+        }
+
+        & .bootstrap-select .dropdown-toggle:after {
+            font-family: "Font Awesome 5 Free";
+            content: "\f017";
+            color: $primary-color;
+            border: none;
+        }
     }
 }
