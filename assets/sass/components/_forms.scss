@@ -1,0 +1,14 @@
+
+.contact-form {
+    input {
+        padding-top: torem(25);
+        padding-bottom: torem(25);
+    }
+    input::placeholder {
+        color: #CECECE;
+    }
+    button {
+        border-radius: 4px;
+        padding: 0 $spacing-xlg;
+    }
+}
