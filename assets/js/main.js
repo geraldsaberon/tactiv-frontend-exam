@@ -19,3 +19,15 @@ var swiper = new Swiper('.recommendation--slide2', {
     },
 });
 
+$("#add-another-flight").on("click", (e) => {
+    e.preventDefault()
+    const newFlight = $(".flight-info")
+        .first()
+        .clone()
+    newFlight.insertBefore("#another-flight-container")
+    newFlight.find(".dropdown-toggle").remove()
+    newFlight.find(".dropdown-menu").remove()
+    newFlight.find(".selectpicker").selectpicker("render")
+})
+
+

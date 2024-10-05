@@ -76,5 +76,19 @@
             color: $primary-color;
             border: none;
         }
+
+        .flight-info:not(:first-child) {
+            margin-top: 2rem;
+        }
+
+        .remove-flight {
+            display: none;
+            font-size: $xsmall;
+            padding: 0 !important;
+        }
+
+        .flight-info:not(:first-child) .remove-flight {
+            display: initial;
+        }
     }
 }

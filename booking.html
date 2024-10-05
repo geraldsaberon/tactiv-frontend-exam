@@ -70,7 +70,7 @@
                                <div class="booking--content tab-content" id="bookingContent">
                                    <div class="tab-pane show active" id="content-flight" role="tabpanel" aria-labelledby="content-flight">
                                      <div class="container">
-                                         <div class="row">
+                                         <div class="row flight-info">
                                              <div class="col-md-6">
                                                  <div class="form-group">
                                                      <label>Date</label>
@@ -86,7 +86,10 @@
                                              </div>
                                              <div class="col-md-6">
                                                  <div class="form-group">
-                                                    <label>Time</label>
+                                                    <div class="d-flex justify-content-between align-items-baseline">
+                                                        <label>Time</label>
+                                                        <button class="btn text-primary remove-flight">Remove flight</button>
+                                                    </div>
                                                     <div class="input-group">
                                                         <select class="selectpicker show-tick" data-style="form-control booking--content__select" data-width="100%">
                                                             <option>11:00 AM AST</option>
@@ -121,10 +124,10 @@
                                                  </div>
                                              </div>
                                          </div>
-                                         <div class="row justify-content-center align-items-center mt-4">
+                                         <div id="another-flight-container" class="row justify-content-center align-items-center mt-4">
                                             <div class="col-md-3"></div>
                                             <div class="col-md-6">
-                                                <button class="btn btn-primary w-100">
+                                                <button id="add-another-flight" class="btn btn-primary w-100">
                                                     <i class="fas fa-plus mr-1"></i>
                                                     Add another flight
                                                 </button>
