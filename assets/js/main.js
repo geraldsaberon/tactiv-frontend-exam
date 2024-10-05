@@ -28,6 +28,10 @@ $("#add-another-flight").on("click", (e) => {
     newFlight.find(".dropdown-toggle").remove()
     newFlight.find(".dropdown-menu").remove()
     newFlight.find(".selectpicker").selectpicker("render")
+    newFlight.find(".btn.remove-flight").on("click", (e) => {
+        e.preventDefault()
+        newFlight.remove()
+    })
 })
 
 
