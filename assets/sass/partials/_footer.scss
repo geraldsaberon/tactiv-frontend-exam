@@ -20,4 +20,12 @@
             color: $white;
         }
     }
+
+    &__logos {
+        font-family: $pop-rgl;
+        .small {
+            font-size: 0.7rem;
+            white-space: nowrap;
+        }
+    }
 }
