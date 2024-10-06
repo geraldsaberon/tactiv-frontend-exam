@@ -59,6 +59,8 @@
         & input.form-control {
             color: $black;
             border-right: none;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
         }
 
         & .input-group-text {
@@ -68,6 +70,11 @@
 
         &__select {
             background: $white;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            .filter-option {
+                height: initial !important;
+            }
         }
 
         & .dropdown-item.active, .dropdown-item:active {
