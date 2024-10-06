@@ -17,7 +17,20 @@ $enable-shadows: false;
 }
 
 
-
+// bootstrap-datepicker
+.datepicker.dropdown-menu {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  .day {
+    padding: 0.25rem 0.5rem;
+  }
+  .active {
+    background: #fdbe13 !important;
+  }
+  .active, .active:hover {
+    color: #000000;
+  }
+}
 
 
 
